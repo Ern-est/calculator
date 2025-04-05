@@ -1,16 +1,53 @@
-# calculator
+Calculator App
+This is a simple, feature-rich calculator app built using Flutter. The app provides basic arithmetic operations like addition, subtraction, multiplication, and division. It also handles edge cases and gives you the ability to evaluate expressions.
 
-A new Flutter project.
+Features
+Basic arithmetic operations (addition, subtraction, multiplication, division).
 
-## Getting Started
+Real-time input processing.
 
-This project is a starting point for a Flutter application.
+Simple and clean user interface.
 
-A few resources to get you started if this is your first Flutter project:
+Error handling for invalid input.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Technologies Used
+Flutter: Used for building the app's UI and logic.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dart: Programming language used for app development.
+
+math_expressions: Library used for parsing and evaluating mathematical expressions.
+
+Setup
+To run the project locally, follow these steps:
+
+1. Clone the repository
+bash
+Copy
+git clone https://github.com/Ern-est/calculator.git
+2. Install Dependencies
+Navigate to the project directory and install the required dependencies:
+
+bash
+Copy
+cd calculator
+flutter pub get
+3. Run the App
+To run the app on an Android or iOS emulator, use:
+
+bash
+Copy
+flutter run
+4. Build APK
+To build the APK for Android:
+
+bash
+Copy
+flutter build apk --release
+The APK will be located in the build/app/outputs/flutter-apk/ directory.
+
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
+
+License
+This project is open-source and available under the MIT License.
+![Screenshot_1743869092](https://github.com/user-attachments/assets/f18f9543-f216-46c3-bc8d-81e10bff453b)
